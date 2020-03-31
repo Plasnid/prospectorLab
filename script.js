@@ -48,7 +48,7 @@ function findGold(){
     
 
     //* 10. have the while loop check if the current round is less than the maximum round
-    while(currentTime<floodTime){
+    while( < ){
         //* the next 2 lines randomly grab co-ordinate values
         let lengthCoord = Math.floor(Math.random()*riverLength);
         let widthCoord = Math.floor(Math.random()*riverWidth);
