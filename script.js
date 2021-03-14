@@ -10,6 +10,8 @@
     * if the area has not already been checked(collected).
     * 
     * Using a while loop, we will have the game run itself
+    * 
+    * 1. connect the script to the html by adding the script tag in the html file.
 */
 
 /* 
