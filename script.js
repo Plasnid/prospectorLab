@@ -27,7 +27,7 @@
 let theRiver = [
     [{chanceOfFinding:.5,amt:2,collected:false},{chanceOfFinding:.3,amt:10,collected:false},{chanceOfFinding:.9,amt:1,collected:false}]
     ]
-// *create a nested loop that will calculate the total of all the gold in the river
+// * now we will create a nested loop in this function that will calculate the total of all the gold in the river and store it
 function totalGoldInRiver(){
     // * 4. create a variable using camelCase that will hold the sum of the gold.  Start it at 0
     
@@ -43,9 +43,9 @@ function totalGoldInRiver(){
 
 
 function findGold(){
-    //* 8. create a value that holds the length of the array(do not hardcode, use the length command)
+    //* 8. create a value called riverLength that holds the length of the array(do not hardcode, use the length command)
     
-    //* 9. create a value that holds the length of the array at theRiver[0] 
+    //* 9. create a value called riverWidth that holds the length of the array at theRiver[0] 
     //* as before, do not hardcode the value, find it with array.length
     
 
@@ -81,7 +81,9 @@ function findGold(){
             
         }
         // * 14. increase the current round by 1
+
+        // * 15. console.log how much gold you found!
         
     }
 };
-// * 15. call the findGold function
+// * 16. call the findGold function
